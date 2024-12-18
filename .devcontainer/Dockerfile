@@ -1,5 +1,6 @@
 FROM nvidia/cuda:12.1.0-base-ubuntu22.04
 
+RUN sudo mkdir -p /.envbuilder/mnt/usr/bin/
 RUN apt-get update
 RUN apt-get install vim sudo curl -y
 
