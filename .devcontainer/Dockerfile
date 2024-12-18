@@ -5,4 +5,4 @@ USER 1000
 WORKDIR ${HOME}
 
 # Create deep-learning environment
-RUN conda activate DL 
+RUN mkdir -p /.envbuilder/mnt/usr/bin/
